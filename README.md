@@ -1,4 +1,4 @@
-- [Demo Project](https://typing-test-nofa4iuo5-maryams-projects-ccda0941.vercel.app/)
+- [Demo Project](https://typing-test-nu-seven.vercel.app/)
 
 - Developed by Maryam Parvaz 🙎
 
