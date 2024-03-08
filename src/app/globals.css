@@ -18,16 +18,30 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: allbody;
+  src: url(font/Neucha-Regular.ttf);
+}
+
+.box {
+  border: 3px solid;
+  border-image: linear-gradient(45deg, rgb(52, 230, 243), rgb(226, 136, 226)) 1;
+  /* background-color: rgba(0, 0, 0, 0.469); */
+}
+
+.box2 {
+  border: 2px solid;
+  border-image: linear-gradient(45deg, rgb(37, 65, 81), rgb(81, 127, 142)) 1;
+  border-radius: 20px;
 }
