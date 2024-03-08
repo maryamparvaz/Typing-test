@@ -44,7 +44,7 @@ export default function section6() {
                                 <div className={dark ? 'w-[70%] h-[70%] bg-blue-300 flex  flex-wrap  content-center *:text-black *:flex *:justify-center *:my-2 justify-center' : 'w-[70%] h-[70%] bg-blue-950 flex  flex-wrap  content-center *:text-white *:flex *:justify-center *:my-2 justify-center'}>
                                         {good ? <h1 className='w-full text-[50px] md:text-[100px]'>Exellent</h1> : <h1 className='w-full text-[50px] md:text-[100px]'>Its bad </h1>}
                                         <p className='w-full mb-10 text-[25px] md:text-[30px]'>You finished in {time1} :  {time2} minute</p>
-                                        {bad ? <h1 className='w-full text-[250px] md:text-[30px]'>You typed a few letters</h1> : <h1 className='w-full text-[25px] md:text-[30px]'> You typed  {clic} letters </h1>}
+                                        {bad ? <h1 className='w-full text-[25px] md:text-[30px]'>You typed a few letters</h1> : <h1 className='w-full text-[25px] md:text-[30px]'> You typed  {clic} letters </h1>}
                                         <p className='w-full mb-10 text-[25px] md:text-[30px]'>You have {eror} typos</p>
                                         <button onClick={playagain} className='w-[150px] p-2 flex text-[30px] border '>Play Again</button>
                                 </div>
